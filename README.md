@@ -6,7 +6,7 @@
 
 Drop-in lazyloader for Font Awesome SVG icons
 
-[*See it in action*](https://idleberg.github.io/fontawesome-lazyload/)
+[*See a demo*](https://idleberg.github.io/fontawesome-lazyload/)
 
 ## Installation
 

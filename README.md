@@ -4,7 +4,7 @@
 [![npm](https://flat.badgen.net/npm/v/fontawesome-svg-loader)](https://www.npmjs.org/package/fontawesome-svg-loader)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-svg-loader)](https://circleci.com/gh/idleberg/fontawesome-svg-loader)
 
-Loads Font Awesoem SVG icons and inlines them in place of the default markup
+Loads Font Awesome SVG icons and inlines them in place of the default markup
 
 [*See a demo*](https://codepen.io/idleberg/details/eYYYMPY)
 

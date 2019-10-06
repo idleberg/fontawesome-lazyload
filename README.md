@@ -13,18 +13,22 @@ Drop-in lazyloader for Font Awesome SVG icons
 
 ## Usage
 
-Include script and stylesheet in your page
+Include script and stylesheet in your website
 
 ```html
 <!-- Font Awesome SVG Helpers -->
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/svg-with-js.min.css"/>
+<link
+rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/svg-with-js.min.css"/>
 
 <!-- Fallback when JavaScript is not available -->
 <noscript>
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js"/>
 </noscript>
+```
 
-<!-- Invoke Lazyloader -->
+Next, you need to invoke the lazyloader.
+
+```js
 document.addEventListener('DOMContentLoaded', function() {
   svgLoader();
 });

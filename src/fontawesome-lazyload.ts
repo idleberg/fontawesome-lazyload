@@ -38,7 +38,7 @@ export const faLazyload = (userOptions = {}) => {
 
   const faElems = document.querySelectorAll<HTMLElement>('i.fab, i.fad, i.fal, i.far, i.fas');
 
-  faElems.forEach(async faElem => {
+  Array.from(faElems).forEach(async faElem => {
     // Filter classes not prefixed with fa-, as well as all Font Awesome helpers
     const faIcon = Array.from(faElem.classList).filter(className => {
       return (

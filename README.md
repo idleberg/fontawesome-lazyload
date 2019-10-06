@@ -3,7 +3,6 @@
 [![npm](https://flat.badgen.net/npm/license/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
 [![npm](https://flat.badgen.net/npm/v/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-lazyload)](https://circleci.com/gh/idleberg/fontawesome-lazyload)
-[![David](https://flat.badgen.net/david/dep/idleberg/fontawesome-lazyload)](https://david-dm.org/idleberg/fontawesome-lazyload?)
 
 Drop-in lazyloader for Font Awesome SVG icons
 

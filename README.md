@@ -29,6 +29,9 @@ Include script and stylesheet in your website
     href="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js"
   />
 </noscript>
+
+<!-- Lazyload script -->
+<script src="fontawesome-lazyload.js" charset="utf-8" defer></script>
 ```
 
 Next, you need to invoke the lazyloader.

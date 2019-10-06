@@ -1,7 +1,7 @@
 declare interface Window {
-    shop?: FontAwesomeLazyload & typeof FontAwesomeLazyload
+    shop?: FontAwesomeSvgLoader & typeof FontAwesomeSvgLoader
 }
 
-declare interface FontAwesomeLazyload {
-    faLazyload?()
+declare interface FontAwesomeSvgLoader {
+    fasvgLoader?()
 }

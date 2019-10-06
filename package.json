@@ -1,14 +1,14 @@
 {
-  "name": "fontawesome-lazyload",
-  "version": "0.1.1",
-  "description": "Lazyloads SVG icons and inlines them in place of the default Font Awesome markup",
-  "main": "dist/fontawesome-lazyload.js",
+  "name": "fontawesome-svg-loader",
+  "version": "0.0.0",
+  "description": "Loads Font Awesoem SVG icons and inlines them in place of the default markup",
+  "main": "dist/fontawesome-svg-loader.js",
   "files": [
     "dist/"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/idleberg/fontawesome-lazyload.git"
+    "url": "https://github.com/idleberg/fontawesome-svg-loader.git"
   },
   "keywords": [
     "fontawesome",

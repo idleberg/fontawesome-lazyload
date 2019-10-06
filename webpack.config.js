@@ -7,10 +7,10 @@ const path = require('path');
 /**@type {import('webpack').Configuration}*/
 const config = {
   target: 'web',
-  entry: './src/fontawesome-lazyload.ts',
+  entry: './src/fontawesome-svg-loader.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'fontawesome-lazyload.js',
+    filename: 'fontawesome-svg-loader.js',
     libraryTarget: 'umd',
     devtoolModuleFilenameTemplate: '../[resource-path]'
   },

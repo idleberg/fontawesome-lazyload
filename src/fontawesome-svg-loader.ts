@@ -33,7 +33,7 @@ const defaultOptions: any = {
   }
 };
 
-export const faLazyload = (userOptions = {}) => {
+export const fasvgLoader = (userOptions = {}) => {
   const options = {...defaultOptions, ...userOptions};
 
   const faElems = document.querySelectorAll<HTMLElement>('i.fab, i.fad, i.fal, i.far, i.fas');
@@ -83,4 +83,4 @@ export const faLazyload = (userOptions = {}) => {
   });
 };
 
-(<any>window).faLazyload;
+(<any>window).fasvgLoader;

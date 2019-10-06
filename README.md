@@ -1,16 +1,16 @@
-# fontawesome-lazyload
+# fontawesome-svg-loader
 
-[![npm](https://flat.badgen.net/npm/license/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
-[![npm](https://flat.badgen.net/npm/v/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-lazyload)](https://circleci.com/gh/idleberg/fontawesome-lazyload)
+[![npm](https://flat.badgen.net/npm/license/fontawesome-svg-loader)](https://www.npmjs.org/package/fontawesome-svg-loader)
+[![npm](https://flat.badgen.net/npm/v/fontawesome-svg-loader)](https://www.npmjs.org/package/fontawesome-svg-loader)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-svg-loader)](https://circleci.com/gh/idleberg/fontawesome-svg-loader)
 
-Lazyloads SVG icons and inlines them in place of the default Font Awesome markup
+Loads Font Awesoem SVG icons and inlines them in place of the default markup
 
 [*See a demo*](https://codepen.io/idleberg/details/eYYYMPY)
 
 ## Installation
 
-`yarn add fontawesome-lazyload || npm install fontawesome-lazyload -S`
+`yarn add fontawesome-svg-loader || npm install fontawesome-svg-loader -S`
 
 ## Usage
 
@@ -31,15 +31,15 @@ Include script and stylesheet in your website
   />
 </noscript>
 
-<!-- Lazyload script -->
-<script src="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js" charset="utf-8" defer></script>
+<!-- Loader script -->
+<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" charset="utf-8" defer></script>
 ```
 
-Next, you need to invoke the lazyloader
+Next, you need to invoke the script
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  faLazyload();
+  fasvgLoader();
 });
 ```
 

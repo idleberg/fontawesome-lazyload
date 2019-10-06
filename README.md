@@ -35,7 +35,7 @@ Include script and stylesheet in your website
 <script src="fontawesome-lazyload.js" charset="utf-8" defer></script>
 ```
 
-Next, you need to invoke the lazyloader.
+Next, you need to invoke the lazyloader
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {

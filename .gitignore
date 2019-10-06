@@ -1,0 +1,18 @@
+# dependencies
+bower_components/
+node_modules/
+vendor/
+
+# package manager files
+npm-debug.log*
+yarn-error.log
+yarn.lock
+shrinkwrap.yaml
+
+# development
+tsconfig.tsbuildinfo
+
+# project specific
+test.js
+test.ts
+todo.md

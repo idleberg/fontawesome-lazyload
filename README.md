@@ -1,0 +1,53 @@
+# fontawesome-lazyload
+
+[![npm](https://flat.badgen.net/npm/license/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
+[![npm](https://flat.badgen.net/npm/v/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-lazyload)](https://circleci.com/gh/idleberg/fontawesome-lazyload)
+[![David](https://flat.badgen.net/david/dep/idleberg/fontawesome-lazyload)](https://david-dm.org/idleberg/fontawesome-lazyload?)
+
+Drop-in lazyloader for Font Awesome SVG icons
+
+## Installation
+
+`yarn add fontawesome-lazyload || npm install fontawesome-lazyload -S`
+
+## Usage
+
+Include script and stylesheet in your page
+
+```html
+<!-- Font Awesome SVG Helpers -->
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/svg-with-js.min.css"/>
+
+<!-- Fallback when JavaScript is not available -->
+<noscript>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js"/>
+</noscript>
+
+<!-- Invoke Lazyloader -->
+document.addEventListener('DOMContentLoaded', function() {
+  svgLoader();
+});
+
+```
+### Options
+
+#### options.url
+
+Type: `string`
+
+Provide URL from where to load Font Awesome SVG icons. Defaults to jsDelivr.
+
+#### options.fetch
+
+Type: `object`
+
+Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Default to `{cache: 'force-cache'}`
+
+## License
+
+This work is licensed under [The MIT License](https://opensource.org/licenses/MIT)
+
+## Donate
+
+You are welcome to support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/node-makensis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`

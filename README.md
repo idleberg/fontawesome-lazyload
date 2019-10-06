@@ -27,12 +27,12 @@ Include script and stylesheet in your website
 <noscript>
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
   />
 </noscript>
 
 <!-- Lazyload script -->
-<script src="fontawesome-lazyload.js" charset="utf-8" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fontawesome-lazyload@latest/dist/fontawesome-lazyload.js" charset="utf-8" defer></script>
 ```
 
 Next, you need to invoke the lazyloader

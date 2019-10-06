@@ -6,6 +6,8 @@
 
 Drop-in lazyloader for Font Awesome SVG icons
 
+[*See it in action*](https://idleberg.github.io/fontawesome-lazyload/)
+
 ## Installation
 
 `yarn add fontawesome-lazyload || npm install fontawesome-lazyload -S`

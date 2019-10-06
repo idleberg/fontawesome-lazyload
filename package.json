@@ -1,7 +1,7 @@
 {
   "name": "fontawesome-lazyload",
   "version": "0.1.1",
-  "description": "Drop-in lazyloader for Font Awesome SVG icons",
+  "description": "Lazyloads SVG icons and inlines them in place of the default Font Awesome markup",
   "main": "dist/fontawesome-lazyload.js",
   "files": [
     "dist/"

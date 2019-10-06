@@ -4,9 +4,9 @@
 [![npm](https://flat.badgen.net/npm/v/fontawesome-lazyload)](https://www.npmjs.org/package/fontawesome-lazyload)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/fontawesome-lazyload)](https://circleci.com/gh/idleberg/fontawesome-lazyload)
 
-Drop-in lazyloader for Font Awesome SVG icons
+Lazyloads SVG icons and inlines them in place of the default Font Awesome markup
 
-[*See a demo*](https://idleberg.github.io/fontawesome-lazyload/)
+[*See a demo*](https://codepen.io/idleberg/details/eYYYMPY)
 
 ## Installation
 

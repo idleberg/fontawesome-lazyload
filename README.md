@@ -37,7 +37,7 @@ Next, you need to invoke the lazyloader.
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  svgLoader();
+  faLazyload();
 });
 
 ```

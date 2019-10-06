@@ -41,8 +41,14 @@ Next, you need to invoke the lazyloader
 document.addEventListener('DOMContentLoaded', function() {
   faLazyload();
 });
-
 ```
+
+Use the Font Awesome markup like you usually would, the library will take care of the rest
+
+```html
+<i class="fas fa-feather-alt"></i>
+```
+
 ### Options
 
 #### options.url

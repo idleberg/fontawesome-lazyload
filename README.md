@@ -55,7 +55,7 @@ Use the Font Awesome markup like you usually would, the library will take care o
 
 Type: `string`
 
-Provide URL from where to load Font Awesome SVG icons. Defaults to jsDelivr.
+Provide URL to the SVGs folder of Font Awesome v5. Defaults to [jsDelivr](https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/svgs/).
 
 #### options.fetch
 

@@ -61,7 +61,7 @@ Provide URL to the SVGs folder of Font Awesome v5. Defaults to [jsDelivr](https:
 
 Type: `object`
 
-Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Default to `{cache: 'force-cache'}`
+Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Defaults to `{cache: 'force-cache'}`
 
 ## License
 

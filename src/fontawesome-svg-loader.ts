@@ -65,7 +65,7 @@ export const fasvgLoader = (userOptions = {}) => {
     }
 
     const faBasename = faIcon[0].replace(/^fa-/, '');
-    const faUrl = `${options.svgurl.replace(/\/$/, '')}/${faStyle}/${faBasename}.svg`;
+    const faUrl = `${options.url.replace(/\/$/, '')}/${faStyle}/${faBasename}.svg`;
 
     const response = await fetch(
       faUrl,

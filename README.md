@@ -6,7 +6,7 @@
 
 Loads Font Awesome SVG icons and inlines them in place of the default markup
 
-[*See a demo*](https://codepen.io/idleberg/details/eYYYMPY)
+[*See a demo*](https://codepen.io/idleberg/pen/wvBwxgv)
 
 ## Installation
 
@@ -17,11 +17,8 @@ Loads Font Awesome SVG icons and inlines them in place of the default markup
 Include script and stylesheet in your website
 
 ```html
-<!-- Font Awesome SVG Helpers -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/svg-with-js.min.css"
-/>
+<!-- Loader script -->
+<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" charset="utf-8" defer></script>
 
 <!-- Fallback when JavaScript is not available -->
 <noscript>
@@ -30,9 +27,6 @@ Include script and stylesheet in your website
     href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
   />
 </noscript>
-
-<!-- Loader script -->
-<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" charset="utf-8" defer></script>
 ```
 
 Next, you need to invoke the script
@@ -55,7 +49,7 @@ Use the Font Awesome markup like you usually would, the library will take care o
 
 Type: `string`
 
-Provide URL from where to load Font Awesome SVG icons. Defaults to jsDelivr.
+Provide URL from where to load Font Awesome. Defaults to jsDelivr.
 
 #### options.fetch
 

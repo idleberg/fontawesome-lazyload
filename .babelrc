@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "@babel/typescript"
+    ],
+    "plugins": [
+        "minify-dead-code-elimination",
+        "minify-simplify"
+    ],
+    "env": {
+        "production": {
+            "presets": [
+                "minify"
+            ]
+        }
+    }
+}

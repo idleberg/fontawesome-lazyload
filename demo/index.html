@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>fontawesome-svg-loader</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css"
+      />
+    </noscript>
+    <script
+      src="../dist/fontawesome-svg-loader.js"
+      defer
+    ></script>
+    <style>
+      body {
+        background-color: lightpink;
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body class="h-100">
+    <div class="container h-100">
+      <div
+        class="row h-100 justify-content-center align-items-center text-center"
+      >
+        <div class="col-4">
+          <i class="fas fa-yen-sign fa-10x"></i>
+        </div>
+        <div class="col-4">
+          <i class="fas fa-euro-sign fa-10x"></i>
+        </div>
+        <div class="col-4">
+          <i class="fas fa-dollar-sign fa-10x"></i>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        fasvgLoader();
+      });
+    </script>
+  </body>
+</html>

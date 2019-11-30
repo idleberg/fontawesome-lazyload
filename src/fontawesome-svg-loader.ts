@@ -1,3 +1,6 @@
+import '@fortawesome/fontawesome-free/css/svg-with-js.min.css';
+import './style.scss';
+
 const helperClasses: string[] = [
   // Sizing Icons
   'xs', 'sm', 'lg', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x',

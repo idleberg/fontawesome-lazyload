@@ -6,7 +6,7 @@
 
 Loads Font Awesome SVG icons and inlines them in place of the default markup
 
-[*See a demo*](https://codepen.io/idleberg/pen/wvBwxgv)
+[Demo Time](https://codepen.io/idleberg/pen/wvBwxgv) 🙌
 
 ## Installation
 
@@ -18,13 +18,13 @@ Include script and stylesheet in your website
 
 ```html
 <!-- Loader script -->
-<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" charset="utf-8" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" async></script>
 
 <!-- Fallback when JavaScript is not available -->
 <noscript>
   <link
-    rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
+    rel="stylesheet"
   />
 </noscript>
 ```

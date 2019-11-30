@@ -6,7 +6,7 @@
 
 Loads Font Awesome SVG icons and inlines them in place of the default markup
 
-[Demo Time](https://codepen.io/idleberg/pen/wvBwxgv) 🙌
+[Demo Time](https://codepen.io/idleberg/details/wvBwxgv) 🙌
 
 ## Installation
 

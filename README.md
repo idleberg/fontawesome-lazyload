@@ -49,7 +49,7 @@ Use the Font Awesome markup like you usually would, the library will take care o
 
 Type: `string`
 
-Provide URL from where to load Font Awesome. Defaults to jsDelivr.
+Provide URL from where to load Font Awesome v5. Defaults to jsDelivr.
 
 #### options.fetch
 

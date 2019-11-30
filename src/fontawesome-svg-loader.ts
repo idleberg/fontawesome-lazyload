@@ -30,7 +30,7 @@ function createElementFromString(html): Element {
 }
 
 const defaultOptions: any = {
-  url: `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5`,
+  url: `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/svgs`,
   fetch: {
     cache: 'force-cache'
   }
@@ -65,9 +65,10 @@ export const fasvgLoader = (userOptions = {}) => {
     }
 
     const faBasename = faIcon[0].replace(/^fa-/, '');
+    const faUrl = `${options.svgurl.replace(/\/$/, '')}/${faStyle}/${faBasename}.svg`;
 
     const response = await fetch(
-      `${options.url}/svgs/${faStyle}/${faBasename}.svg`,
+      faUrl,
       options.fetch
     );
 

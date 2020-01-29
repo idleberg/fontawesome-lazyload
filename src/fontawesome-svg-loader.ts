@@ -86,5 +86,3 @@ export const fasvgLoader = (userOptions = {}) => {
     }
   });
 };
-
-(<any>window).fasvgLoader;

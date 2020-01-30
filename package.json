@@ -1,6 +1,6 @@
 {
   "name": "fontawesome-svg-loader",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Loads Font Awesome SVG icons and inlines them in place of the default markup",
   "main": "dist/fontawesome-svg-loader.js",
   "files": [

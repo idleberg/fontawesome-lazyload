@@ -61,6 +61,12 @@ Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/AP
 
 This library supports all modern browsers. For older browsers, you might want to use Polyfill.io or your own custom Polyfill strategy.
 
+**Example:**
+
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+```
+
 ⚠️ Keep in mind that using polyfills can result in slower load-times compared to vanilla Font Awesome.
 
 ## License

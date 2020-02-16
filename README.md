@@ -57,6 +57,12 @@ Type: `object`
 
 Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Default to `{cache: 'force-cache'}`
 
+### Browser Support
+
+This library supports all modern browsers. For older browsers, you might want to use Polyfill.io or your own custom Polyfill strategy.
+
+⚠️ Keep in mind that using polyfills can result in slower load-times compared to vanilla Font Awesome.
+
 ## License
 
 This work is licensed under [The MIT License](https://opensource.org/licenses/MIT)

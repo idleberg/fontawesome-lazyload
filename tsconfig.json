@@ -10,7 +10,7 @@
         "outDir": "./dist",
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": false,
-        "removeComments": false,
+        "removeComments": true,
         "rootDir": "src",
         "allowJs": true,
         // Don't emit; allow Babel to transform files.

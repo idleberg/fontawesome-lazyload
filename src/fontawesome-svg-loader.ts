@@ -36,7 +36,7 @@ const defaultOptions: any = {
   }
 };
 
-export const fasvgLoader = (userOptions = {}) => {
+export const init = (userOptions = {}) => {
   const options = {...defaultOptions, ...userOptions};
 
   const faElems = document.querySelectorAll<HTMLElement>('i.fab, i.fad, i.fal, i.far, i.fas');

@@ -33,7 +33,7 @@ Next, you need to invoke the script
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {
-  fasvgLoader();
+  awesomeLoader.init()
 });
 ```
 

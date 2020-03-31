@@ -11,6 +11,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'fontawesome-svg-loader.js',
+    library: 'awesomeLoader',
     libraryTarget: 'umd',
     devtoolModuleFilenameTemplate: '../[resource-path]'
   },

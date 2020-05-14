@@ -63,9 +63,9 @@ Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/AP
 
 ```json
 {
-  cache: 'force-cache',
-  headers: {
-    Accepts: 'image/svg+xml'
+  "cache": "force-cache",
+  "headers": {
+    "Accepts": "image/svg+xml"
   }
 }
 ```

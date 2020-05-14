@@ -49,19 +49,21 @@ Use the Font Awesome markup like you usually would, the library will take care o
 
 Type: `string`
 
-Provide URL from where to load Font Awesome v5. Defaults to jsDelivr.
+Provide URL from where to load Font Awesome v5. Defaults to [jsDelivr](https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5).
+
+⚠️ It's encouraged to use a specific version in the jsDelivr URL to get longer cache expiration times
 
 #### options.fetch
 
 Type: `object`
 
-Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Default to `{cache: 'force-cache'}`
+Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details.
 
 ### Browser Support
 
 This library supports all modern browsers. You will need to BYOP (*”Bring your own Polyfills”*) to get it working in old browsers.
 
-⚠️ Keep in mind that using polyfills can result in slower load-times compared to the standard Font Awesome usage.
+⚠️ Keep in mind that using polyfills can result in slower load-times compared to the standard Font Awesome usage
 
 ## License
 

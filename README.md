@@ -57,18 +57,7 @@ Provide URL from where to load Font Awesome v5. Defaults to [jsDelivr](https://c
 
 Type: `object`
 
-Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details.
-
-**Default options:**
-
-```json
-{
-  "cache": "force-cache",
-  "headers": {
-    "Accepts": "image/svg+xml"
-  }
-}
-```
+Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details. Defaults to `{"cache": "force-cache"}`.
 
 ### Browser Support
 

@@ -32,10 +32,7 @@ function createElementFromString(html): Element {
 const defaultOptions: any = {
   url: `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5`,
   fetch: {
-    cache: 'force-cache',
-    headers: {
-      Accepts: 'image/svg+xml'
-    }
+    cache: 'force-cache'
   }
 };
 

@@ -59,6 +59,17 @@ Type: `object`
 
 Options for `fetch()`, see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options) for details.
 
+**Default options:**
+
+```json
+{
+  cache: 'force-cache',
+  headers: {
+    Accepts: 'image/svg+xml'
+  }
+}
+```
+
 ### Browser Support
 
 This library supports all modern browsers. You will need to BYOP (*”Bring your own Polyfills”*) to get it working in old browsers.

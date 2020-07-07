@@ -1,5 +1,5 @@
 import '@fortawesome/fontawesome-free/css/svg-with-js.min.css';
-import './style.scss';
+import './style.css';
 
 const helperClasses: string[] = [
   // Sizing Icons
@@ -36,7 +36,7 @@ const defaultOptions: any = {
   }
 };
 
-export const init = (userOptions = {}) => {
+export const init = (userOptions = {}): void => {
   const options = {...defaultOptions, ...userOptions};
 
   const faElems = document.querySelectorAll<HTMLElement>('i.fab, i.fad, i.fal, i.far, i.fas');

@@ -20,7 +20,6 @@ const helperClasses: string[] = [
   'swap-opacity'
 ];
 
-
 function createElementFromString(html): Element {
   const template: HTMLElement = document.createElement('div');
   html = html.trim();

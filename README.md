@@ -18,7 +18,7 @@ Include script and stylesheet in your website
 
 ```html
 <!-- Loader script -->
-<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/fontawesome-svg-loader@latest/dist/fontawesome-svg-loader.js"></script>
 
 <!-- Fallback when JavaScript is not available -->
 <noscript>

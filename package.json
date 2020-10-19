@@ -29,7 +29,7 @@
     "@fortawesome/fontawesome-free": ">=5.0.0 <6.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-typescript": "^5.0.1",
     "@types/node": "^14.0.19",
     "@typescript-eslint/eslint-plugin": "^3.6.0",

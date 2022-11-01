@@ -66,12 +66,12 @@ export const init = (userOptions = {}): void => {
     const faBasename = faIcon[0].replace(/^fa-/, '');
     const faUrl = `${options.url.replace(/\/$/, '')}/svgs/${faStyle}/${faBasename}.svg`;
 
-    const response = await fetch(
+    const response = await window.fetch(
       faUrl,
       options.fetch
     );
 
-    if (response.status === 200) {
+    if (response.ok) {
       const svgIcon = await response.text();
       const svgElem = createElementFromString(svgIcon);
 

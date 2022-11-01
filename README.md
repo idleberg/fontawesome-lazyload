@@ -10,7 +10,7 @@ Loads Font Awesome SVG icons and inlines them in place of the default markup
 
 ## Installation
 
-`yarn add fontawesome-svg-loader || npm install fontawesome-svg-loader -S`
+`npm install fontawesome-svg-loader -S`
 
 ## Usage
 

@@ -40,7 +40,7 @@ export const init = (userOptions = {}): void => {
 
   const faElems = document.querySelectorAll<HTMLElement>('i.fab, i.fad, i.fal, i.far, i.fas');
 
-  Array.from(faElems).map(async faElem => {
+  faElems.forEach(async faElem => {
     // Filter classes not prefixed with fa-, as well as all Font Awesome helpers
     const faIcon = Array.from(faElem.classList).filter(className => {
       return (

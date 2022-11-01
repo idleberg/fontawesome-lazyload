@@ -20,31 +20,35 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "npm run start",
-    "lint": "eslint ./src",
+    "lint:json": "eslint ./*.json --ignore-path .gitignore",
+    "lint:ts": "eslint ./src --ignore-path .gitignore",
+    "lint": "npm-run-all --parallel lint:*",
     "prepack": "npm run build",
+    "prepare": "husky install",
     "start": "rollup -c -w",
     "test": "npm run lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": ">=5.0.0 <6.0.0"
+    "@fortawesome/fontawesome-free": "^5.15.4"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^8.1.0",
-    "@rollup/plugin-typescript": "^5.0.1",
-    "@types/node": "^14.0.19",
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
-    "@typescript-eslint/parser": "^3.6.0",
-    "eslint": "^7.4.0",
-    "husky": "^4.2.5",
-    "rollup": "^2.21.0",
-    "rollup-plugin-postcss": "^3.1.2",
-    "rollup-plugin-terser": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "npm-run-all2": "^6.0.2",
+    "rollup": "^3.2.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.1",
-    "typescript": "^3.9.6"
+    "typescript": "^4.8.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
+  "lint-staged": {
+    "*.(json|ts)": "eslint --cache --fix"
   }
 }

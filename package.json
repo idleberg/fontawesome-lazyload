@@ -5,7 +5,9 @@
   "license": "MIT",
   "main": "dist/fontawesome-svg-loader.js",
   "files": [
-    "dist/"
+    "dist/",
+		"LICENSE",
+		"README.md"
   ],
   "repository": {
     "type": "git",

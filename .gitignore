@@ -13,6 +13,9 @@ yarn.lock
 *.map
 tsconfig.tsbuildinfo
 
+# build
+dist/
+
 # project specific
 test.js
 test.ts

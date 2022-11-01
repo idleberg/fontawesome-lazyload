@@ -3,12 +3,12 @@ name: CI
 on:
   push:
     paths:
-    - 'generators/**'
+    - 'src/**'
     - 'package.json'
     - 'pnpm-lock.yaml'
   pull_request:
       paths:
-      - 'generators/**'
+      - 'src/**'
       - 'package.json'
       - 'pnpm-lock.yaml'
 
